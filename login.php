@@ -135,6 +135,17 @@ session_start();
         <br>
         
     </form>
+
+    <form action="login.php" method="post">
+        <input type="hidden" name="type" value="main">
+        <br>
+        Pelicules
+       
+        <input type="submit" value="update">
+        <br>
+        
+    </form>
+
     <form action="login.php" method="post">
         <input type="hidden" name="type" value="logout">
         <hr/>
